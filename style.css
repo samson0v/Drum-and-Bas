@@ -1,0 +1,54 @@
+html{
+	height: 100%;
+}
+body{
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	background: black url(images/back.jpg) bottom center;
+	background-size: cover;
+	position: fixed;
+}
+
+h3.title{
+	text-align: center;
+	margin: 0;
+	color: yellow;
+	font-size: 60px;
+	margin-top: 150px;
+	border-top: 4px dashed #fff;
+	border-bottom: 4px dashed #fff;
+}
+
+.center{
+	width: 1000px;
+	height: 200px;
+	margin: auto;
+	margin-top: 5%;
+}
+.flat{
+	float: left;
+	width: 1000px;
+	height: 200px;
+}
+.button{
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 50px;
+	border: 3px solid yellow;
+	transition: height .07s ease;
+	border-radius: 10px;
+}
+.button h3{
+	text-align: center;
+	color: yellow;
+	font-size: 25px;
+	margin: 0;
+	margin-top: 20px;
+}
+.button p{
+	text-align: center;
+	color: grey;
+}
